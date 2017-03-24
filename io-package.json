@@ -19,12 +19,12 @@
     "icon": "myhomentrol.png",
     "enabled": true,
     "extIcon": "https://github.com/rg-engineering/ioBroker.myhomecontrol_icons/blob/master/admin/homecontrol.PNG",
-    "keywords": [ "iobroker", ],
+    "keywords": [ "iobroker" ],
     "readme": "https://github.com/rg-engineering/ioBroker.myhomecontrol_icons/blob/master/README.md",
     "type": "vis",
     "license": "GPL-3.0",
     "onlyWWW": true,
-    "singleton": true,
+    "singleton": true
   },
   "native": {
 
