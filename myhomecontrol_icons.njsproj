@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c9054bed-18bb-49e8-b5a2-3f7751bc8985}</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>
+    </StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="LICENSE" />
+    <Content Include="readme.txt" />
+    <Content Include="todo.txt" />
+    <Content Include="io-package.json" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Compile Include="Gruntfile.js" />
+    <Content Include="admin\index.html" />
+    <Content Include="admin\myhomecontrol.png" />
+    <Content Include="admin\template.png" />
+    <Compile Include="lib\utils.js" />
+    <Compile Include="tasks\jscs.js" />
+    <Compile Include="tasks\jscsRules.js" />
+    <Compile Include="tasks\jshint.js" />
+    <Content Include="www\icons\Alarm.png" />
+    <Content Include="www\icons\Alarm1.bmp" />
+    <Content Include="www\icons\Alarm2.bmp" />
+    <Content Include="www\icons\Bewm2a.bmp" />
+    <Content Include="www\icons\Bewm2e.bmp" />
+    <Content Include="www\icons\Bewm3a.bmp" />
+    <Content Include="www\icons\Bewm3e.bmp" />
+    <Content Include="www\icons\BIRNE1A.BMP" />
+    <Content Include="www\icons\BIRNE1E.BMP" />
+    <Content Include="www\icons\BIRNE2A.BMP" />
+    <Content Include="www\icons\BIRNE2E.BMP" />
+    <Content Include="www\icons\blue.png" />
+    <Content Include="www\icons\chancerain.png" />
+    <Content Include="www\icons\chancesnow.png" />
+    <Content Include="www\icons\chancetstorms.png" />
+    <Content Include="www\icons\chance_of_storm.png" />
+    <Content Include="www\icons\clear.png" />
+    <Content Include="www\icons\cloudy.png" />
+    <Content Include="www\icons\DoorClosed.png" />
+    <Content Include="www\icons\DoorLocked.png" />
+    <Content Include="www\icons\DoorOpen.png" />
+    <Content Include="www\icons\dust.png" />
+    <Content Include="www\icons\Eiskristall.bmp" />
+    <Content Include="www\icons\EYE01.BMP" />
+    <Content Include="www\icons\EYE02.BMP" />
+    <Content Include="www\icons\EYE03.BMP" />
+    <Content Include="www\icons\FENSTER1.BMP" />
+    <Content Include="www\icons\FENSTER2.BMP" />
+    <Content Include="www\icons\FENSTER3.BMP" />
+    <Content Include="www\icons\FENSTER4.BMP" />
+    <Content Include="www\icons\FENSTER5.BMP" />
+    <Content Include="www\icons\FENSTKL1.BMP" />
+    <Content Include="www\icons\FENSTKL2.BMP" />
+    <Content Include="www\icons\FENSTKL3.BMP" />
+    <Content Include="www\icons\FENSTKL4.BMP" />
+    <Content Include="www\icons\FENSTKL5.BMP" />
+    <Content Include="www\icons\flurries.png" />
+    <Content Include="www\icons\fog.png" />
+    <Content Include="www\icons\GaragenTor_Auf.png" />
+    <Content Include="www\icons\GaragenTor_Zu.png" />
+    <Content Include="www\icons\GLBIRN1A.BMP" />
+    <Content Include="www\icons\GLBIRN1E.BMP" />
+    <Content Include="www\icons\GLBIRN2A.BMP" />
+    <Content Include="www\icons\GLBIRN2E.BMP" />
+    <Content Include="www\icons\GLOCKEA.BMP" />
+    <Content Include="www\icons\GLOCKEE.BMP" />
+    <Content Include="www\icons\hazy.png" />
+    <Content Include="www\icons\Heizk1a.bmp" />
+    <Content Include="www\icons\Heizk1e.bmp" />
+    <Content Include="www\icons\Heizk_ka.bmp" />
+    <Content Include="www\icons\Heizk_ke.bmp" />
+    <Content Include="www\icons\HMSRMA.bmp" />
+    <Content Include="www\icons\HMSRME.bmp" />
+    <Content Include="www\icons\HMSWDA.bmp" />
+    <Content Include="www\icons\HMSWDE.bmp" />
+    <Content Include="www\icons\icy.png" />
+    <Content Include="www\icons\KAFMA1A.BMP" />
+    <Content Include="www\icons\KAFMA1E.BMP" />
+    <Content Include="www\icons\KAFMA2A.BMP" />
+    <Content Include="www\icons\KAFMA2E.BMP" />
+    <Content Include="www\icons\LAMPE1A.BMP" />
+    <Content Include="www\icons\LAMPE1E.BMP" />
+    <Content Include="www\icons\LAMPE2A.BMP" />
+    <Content Include="www\icons\LAMPE2E.BMP" />
+    <Content Include="www\icons\LAMPE3A.BMP" />
+    <Content Include="www\icons\LAMPE3E.BMP" />
+    <Content Include="www\icons\LAMPEK1A.BMP" />
+    <Content Include="www\icons\LAMPEK1E.BMP" />
+    <Content Include="www\icons\LAMPST1A.BMP" />
+    <Content Include="www\icons\LAMPST1E.BMP" />
+    <Content Include="www\icons\LAMPST2A.BMP" />
+    <Content Include="www\icons\LAMPST2E.BMP" />
+    <Content Include="www\icons\LAMPST3A.BMP" />
+    <Content Include="www\icons\LAMPST3E.BMP" />
+    <Content Include="www\icons\LAMPSTHA.BMP" />
+    <Content Include="www\icons\LAMPSTHE.BMP" />
+    <Content Include="www\icons\LAMPSTKA.BMP" />
+    <Content Include="www\icons\LAMPSTKE.BMP" />
+    <Content Include="www\icons\LEUCH1HA.BMP" />
+    <Content Include="www\icons\LEUCH1HE.BMP" />
+    <Content Include="www\icons\LEUCH1VA.BMP" />
+    <Content Include="www\icons\LEUCH1VE.BMP" />
+    <Content Include="www\icons\logo_rg-engineering_klein.png" />
+    <Content Include="www\icons\lowbat.png" />
+    <Content Include="www\icons\Markise1.bmp" />
+    <Content Include="www\icons\Markise2.bmp" />
+    <Content Include="www\icons\Markise3.bmp" />
+    <Content Include="www\icons\mist.png" />
+    <Content Include="www\icons\Mond.bmp" />
+    <Content Include="www\icons\Mond_abnehmend.PNG" />
+    <Content Include="www\icons\Mond_neu.PNG" />
+    <Content Include="www\icons\Mond_voll.PNG" />
+    <Content Include="www\icons\Mond_zunehmend.PNG" />
+    <Content Include="www\icons\mostlycloudy.png" />
+    <Content Include="www\icons\mostly_sunny.png" />
+    <Content Include="www\icons\musica.bmp" />
+    <Content Include="www\icons\musice.bmp" />
+    <Content Include="www\icons\OK1.bmp" />
+    <Content Include="www\icons\OK2.bmp" />
+    <Content Include="www\icons\Okay.png" />
+    <Content Include="www\icons\partlycloudy.png" />
+    <Content Include="www\icons\pump_active.png" />
+    <Content Include="www\icons\pump_inactive.png" />
+    <Content Include="www\icons\QuestionMark.png" />
+    <Content Include="www\icons\Radioa.bmp" />
+    <Content Include="www\icons\Radioe.bmp" />
+    <Content Include="www\icons\rain.png" />
+    <Content Include="www\icons\RAUM01.BMP" />
+    <Content Include="www\icons\Regen1a.bmp" />
+    <Content Include="www\icons\Regen1e.bmp" />
+    <Content Include="www\icons\return.png" />
+    <Content Include="www\icons\SCHALT1A.BMP" />
+    <Content Include="www\icons\SCHALT1E.BMP" />
+    <Content Include="www\icons\SCHALT2A.BMP" />
+    <Content Include="www\icons\SCHALT2E.BMP" />
+    <Content Include="www\icons\SCHALT3A.BMP" />
+    <Content Include="www\icons\SCHALT3E.BMP" />
+    <Content Include="www\icons\Schalter3A.bmp" />
+    <Content Include="www\icons\Schalter3E.bmp" />
+    <Content Include="www\icons\SCHALTKIA.BMP" />
+    <Content Include="www\icons\SCHALTKIE.BMP" />
+    <Content Include="www\icons\SCHEIN1A.BMP" />
+    <Content Include="www\icons\SCHEIN1E.BMP" />
+    <Content Include="www\icons\SCHEIN2A.BMP" />
+    <Content Include="www\icons\SCHEIN2E.BMP" />
+    <Content Include="www\icons\SCHROT1A.BMP" />
+    <Content Include="www\icons\SCHROT1E.BMP" />
+    <Content Include="www\icons\SCHROT2A.BMP" />
+    <Content Include="www\icons\SCHROT2E.BMP" />
+    <Content Include="www\icons\SENSOR1.BMP" />
+    <Content Include="www\icons\showers.png" />
+    <Content Include="www\icons\SKONT1HA.BMP" />
+    <Content Include="www\icons\SKONT1HE.BMP" />
+    <Content Include="www\icons\SKONT1SA.BMP" />
+    <Content Include="www\icons\SKONT1SE.BMP" />
+    <Content Include="www\icons\sleet.png" />
+    <Content Include="www\icons\smoke.png" />
+    <Content Include="www\icons\snow.png" />
+    <Content Include="www\icons\Sonne.bmp" />
+    <Content Include="www\icons\Steckdose an.bmp" />
+    <Content Include="www\icons\Steckdose aus.bmp" />
+    <Content Include="www\icons\Steckdose klein an.bmp" />
+    <Content Include="www\icons\Steckdose klein aus.bmp" />
+    <Content Include="www\icons\storm.png" />
+    <Content Include="www\icons\Sun2.bmp" />
+    <Content Include="www\icons\Sun2Half.bmp" />
+    <Content Include="www\icons\sunny.png" />
+    <Content Include="www\icons\TASTER01.BMP" />
+    <Content Include="www\icons\TASTER02.BMP" />
+    <Content Include="www\icons\TASTER03.BMP" />
+    <Content Include="www\icons\TASTER1A.BMP" />
+    <Content Include="www\icons\TASTER1E.BMP" />
+    <Content Include="www\icons\TBild-contr.bmp" />
+    <Content Include="www\icons\Thermo1a.bmp" />
+    <Content Include="www\icons\Thermo1e.bmp" />
+    <Content Include="www\icons\TOAST1A.BMP" />
+    <Content Include="www\icons\TOAST1E.BMP" />
+    <Content Include="www\icons\Trockner_off.png" />
+    <Content Include="www\icons\Trockner_on.png" />
+    <Content Include="www\icons\tstorms.png" />
+    <Content Include="www\icons\TuerAuf.bmp" />
+    <Content Include="www\icons\TuerHoOf.bmp" />
+    <Content Include="www\icons\TuerHoZu.bmp" />
+    <Content Include="www\icons\TuerVeOf.bmp" />
+    <Content Include="www\icons\TuerVeZu.bmp" />
+    <Content Include="www\icons\TuerZu.bmp" />
+    <Content Include="www\icons\Unreach.png" />
+    <Content Include="www\icons\VENT01A.BMP" />
+    <Content Include="www\icons\VENT01E.BMP" />
+    <Content Include="www\icons\VENT03A.BMP" />
+    <Content Include="www\icons\VENT03E.BMP" />
+    <Content Include="www\icons\Views.VID" />
+    <Content Include="www\icons\WAMAA.BMP" />
+    <Content Include="www\icons\WAMAE.BMP" />
+    <Content Include="www\icons\Waschmaschine_off.png" />
+    <Content Include="www\icons\Waschmaschine_on.png" />
+    <Content Include="www\icons\WindowClosed.png" />
+    <Content Include="www\icons\WindowDreiViertel.png" />
+    <Content Include="www\icons\WindowHalb.png" />
+    <Content Include="www\icons\WindowOben.png" />
+    <Content Include="www\icons\WindowOpen.png" />
+    <Content Include="www\icons\WindowUnten.png" />
+    <Content Include="www\icons\WindowViertel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin" />
+    <Folder Include="lib" />
+    <Folder Include="tasks" />
+    <Folder Include="www\" />
+    <Folder Include="www\icons\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

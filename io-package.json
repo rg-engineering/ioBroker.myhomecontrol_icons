@@ -1,0 +1,33 @@
+{
+  "common": {
+    "name": "iobroker.myHomecontrol_Icons",
+    "version": "0.0.1",
+    "news": {
+      "0.0.1": {
+        "en": "initial release",
+        "de": "erste Version"
+      }
+    },
+    "title": "iobroker.myHomecontrol Icons",
+    "desc": {
+      "en": "set of icons",
+      "de": "Icons"
+    },
+    "platform": "Javascript/Node.js",
+    "mode": "none",
+
+    "icon": "myhomentrol.png",
+    "enabled": true,
+    "extIcon": "https://github.com/rg-engineering/ioBroker.myhomecontrol_icons/blob/master/admin/homecontrol.PNG",
+    "keywords": [ "iobroker", ],
+    "readme": "https://github.com/rg-engineering/ioBroker.myhomecontrol_icons/blob/master/README.md",
+    "type": "vis",
+    "license": "GPL-3.0",
+    "onlyWWW": true,
+    "singleton": true,
+  },
+  "native": {
+
+  }
+
+}
