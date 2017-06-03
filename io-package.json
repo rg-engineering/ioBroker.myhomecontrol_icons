@@ -18,7 +18,7 @@
 
     "icon": "myhomentrol.png",
     "enabled": true,
-    "extIcon": "https://github.com/rg-engineering/ioBroker.myhomecontrol_icons/blob/master/admin/homecontrol.PNG",
+    "extIcon": "https://raw.githubusercontent.com/rg-engineering/ioBroker.myhomecontrol_icons/master/admin/myhomecontrol.png",
     "keywords": [ "iobroker" ],
     "readme": "https://github.com/rg-engineering/ioBroker.myhomecontrol_icons/blob/master/README.md",
     "type": "vis",
